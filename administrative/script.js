@@ -292,11 +292,11 @@ class AdminSessionManager {
                 <div class="contact-info">
                     <div class="contact-item">
                         <h4>📞 Phone</h4>
-                        <p>+1 (555) 123-4567</p>
+                        <p>+2347059176093 </p>
                     </div>
                     <div class="contact-item">
                         <h4>📧 Email</h4>
-                        <p>info@yourcompany.com</p>
+                        <p>mascotconsortium@gmail.com</p>
                     </div>
                     <div class="contact-item">
                         <h4>🌐 Website</h4>
@@ -304,7 +304,8 @@ class AdminSessionManager {
                     </div>
                     <div class="contact-item">
                         <h4>📍 Address</h4>
-                        <p>123 Business Ave, Suite 100<br>Your City, State 12345</p>
+                        <p>Ground Floor, Rock of Ages Building, Opposite Police Area Command,  
+Oyemekun Road, Akure, Ondo State. </p>
                     </div>
                 </div>
                 
