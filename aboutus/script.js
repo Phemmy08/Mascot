@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Active link highlighting
+   /*  // Active link highlighting
     function setActiveLink() {
         const sections = document.querySelectorAll('section');
         const scrollPos = window.scrollY + 100;
@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
         });
-    }
+    } */
 
-    // Smooth scrolling for navigation links
+   /*  // Smooth scrolling for navigation links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -64,9 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
         });
-    });
+    }); */
 
-    // Set active link on scroll
+   /*  // Set active link on scroll
     window.addEventListener('scroll', setActiveLink);
 
     // Close mobile menu when clicking outside
@@ -76,12 +76,12 @@ document.addEventListener('DOMContentLoaded', function() {
             navToggle.classList.remove('active');
         }
     });
-});
+}); */
 
 
 
 
-// JavaScript for animations and interactions
+/* // JavaScript for animations and interactions
 document.addEventListener('DOMContentLoaded', function() {
     
     // Smooth scrolling for any anchor links
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 behavior: 'smooth'
             });
         });
-    });
+    }); */
     
     // Intersection Observer for fade-in animations
     const observerOptions = {
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 entry.target.classList.add('animate-in');
             }
         });
-    }, observerOptions);
+    }, observerOptions); 
     
     // Observe all sections for animation
     document.querySelectorAll('.about-section, .mission-vision, .values-section, .why-choose-us, .cta-section').forEach(section => {
