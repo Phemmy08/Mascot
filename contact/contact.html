@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Mascot Consortium</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <span class="logo-text">Mascot Consortium</span>
+        </a>
+
+        <ul class="nav-menu">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="../aboutus/aboutus.html" class="nav-link">About</a></li>
+            <li><a href="../Writing/writing.html" class="nav-link">Writing</a></li>
+            <li><a href="../branding/branding.html" class="nav-link">Branding</a></li>
+            <li><a href="../administrative/index.html" class="nav-link">Branding</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+
+        <button class="mobile-toggle" id="mobileToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+
+
+
+
+    <div class="form-container">
+        <div class="form-header">
+            <h1 class="form-title">Contact Us</h1>
+            <p class="form-subtitle">Send us a message and we'll respond as soon as possible</p>
+        </div>
+
+        <!-- Contact Form with FormSubmit Integration -->
+        <form class="contact-form" action="https://formsubmit.co/mascotconsortium@gmail.com" method="POST" id="contactForm">
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_subject" value="New Contact Form Submission - Mascot Consortium">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+            
+            <!-- Name and Email Row -->
+            <div class="form-row">
+                <div class="form-group">
+                    <i class="form-icon fas fa-user"></i>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <div class="error-message">Please enter your full name</div>
+                </div>
+                <div class="form-group">
+                    <i class="form-icon fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <div class="error-message">Please enter a valid email address</div>
+                </div>
+            </div>
+
+            <!-- Phone and Company Row -->
+            <div class="form-row">
+                <div class="form-group">
+                    <i class="form-icon fas fa-phone"></i>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <div class="error-message">Please enter your phone number</div>
+                </div>
+                <div class="form-group">
+                    <i class="form-icon fas fa-building"></i>
+                    <input type="text" name="company" placeholder="Company Name (Optional)">
+                </div>
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group full-width">
+                <i class="form-icon fas fa-tag"></i>
+                <select name="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Business Partnership">Business Partnership</option>
+                    <option value="Consultation Request">Consultation Request</option>
+                    <option value="Support Request">Support Request</option>
+                    <option value="Quote Request">Quote Request</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div class="error-message">Please select a subject</div>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group full-width textarea-group">
+                <i class="form-icon fas fa-comment-dots"></i>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <div class="error-message">Please enter your message (minimum 10 characters)</div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit-button-container">
+                <button type="submit" class="enhanced-submit-btn" id="submitBtn">
+                    <span class="btn-background"></span>
+                    <span class="btn-content">
+                        <span class="btn-icon-left">
+                            <i class="fas fa-paper-plane"></i>
+                        </span>
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon-right">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </span>
+                    <span class="btn-ripple"></span>
+                </button>
+            </div>
+        </form>
+
+        <!-- Success Message -->
+        <div class="success-message" id="successMessage">
+            <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+            Thank you! Your message has been sent successfully. We'll get back to you soon.
+        </div>
+
+        <!-- Company Information -->
+        <div class="company-info">
+            <h4>Mascot Consortium</h4>
+            <p>Ground Floor, Rock of Ages Building</p>
+            <p>Opposite Police Area Command, Oyemekun Road</p>
+            <p>Akure, Ondo State, Nigeria</p>
+            <p><a href="tel:+2348107116826">+234 810 711 6826</a> | <a href="tel:+2347059176093">+234 705 917 6093</a></p>
+            <p><a href="mailto:mascotconsortium@gmail.com">mascotconsortium@gmail.com</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
