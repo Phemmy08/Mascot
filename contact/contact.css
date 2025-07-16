@@ -1,12 +1,14 @@
- * {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: "Montserrat", sans-serif;
+            background: linear-gradient(135deg, #FF0000 0%, #0C0028 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -91,14 +93,14 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
     backdrop-filter: blur(20px);
     flex-direction: column;
     padding: 20px;
 }
 
 .mobile-menu a {
-    color: white;
+    color: '#0C0028';
     text-decoration: none;
     padding: 15px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -169,6 +171,7 @@
             font-size: 2.5rem;
             font-weight: 700;
             color: white;
+            margin-top: 45px;
             margin-bottom: 10px;
             background: linear-gradient(45deg, #ffffff, #f0f0f0);
             -webkit-background-clip: text;
