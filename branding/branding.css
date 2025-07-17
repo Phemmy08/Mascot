@@ -74,7 +74,7 @@ body {
 }
 
 .logo-text {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg,  #0C0028, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -428,11 +428,24 @@ body {
 .section-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #2d3748;
+    color:  #0C0028;
     margin-bottom: 1rem;
 }
 
 .section-subtitle {
+    font-size: 1.2rem;
+    color:  #0C0028;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-title2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color:  wheat;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle2 {
     font-size: 1.2rem;
     color: wheat;
     max-width: 600px;
@@ -529,7 +542,7 @@ body {
 /* Process Section */
 .process-section {
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0C0028 0%, #FF0000 100%);
     color: white;
 }
 
