@@ -1670,10 +1670,10 @@
     transition: opacity 0.3s ease;
 }
 
-.mascot-social-item.linkedin { --social-color: #0077b5; }
-.mascot-social-item.twitter { --social-color: #1da1f2; }
-.mascot-social-item.instagram { --social-color: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-.mascot-social-item.facebook { --social-color: #1877f2; }
+.mascot-social-item.linkedin { --social-color: #0C0028; }
+.mascot-social-item.twitter { --social-color: #0C0028; }
+.mascot-social-item.instagram { --social-color: linear-gradient(45deg, #0C0028 0%, #0C0028 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+.mascot-social-item.facebook { --social-color: #0C0028; }
 
 .mascot-social-item:hover {
     transform: translateY(-5px) scale(1.05);
